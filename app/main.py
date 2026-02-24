@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from mangum import Mangum
+from employee import Employee
 
 app = FastAPI()
 
